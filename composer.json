@@ -1,0 +1,38 @@
+{
+    "name": "sevenlinx/validation",
+    "description": "Validation for Seven LinX projects",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jay Are Galinada",
+            "email": "jayaregalinada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/http": "^8.0",
+        "illuminate/validation": "^8.0",
+        "illuminate/collections": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SevenLinX\\Validation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SevenLinX\\Validation\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SevenLinx\\Validation\\ServiceProvider"
+            ]
+        }
+    }
+}
