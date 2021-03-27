@@ -2,6 +2,7 @@
     "name": "sevenlinx/validation",
     "description": "Validation for Seven LinX projects",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jay Are Galinada",
