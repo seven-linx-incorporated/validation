@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SevenLinx\\Validation\\ServiceProvider"
+                "SevenLinX\\Validation\\ServiceProvider"
             ]
         }
     }
